@@ -31,8 +31,8 @@ today write
 today write
 ___
 >### Social Network
-> [<img src="./Other/Images/github.png" width="30">](https://github.com/khadem-mh)
-> [<img src="./Other/Images/pintrest.png" width="30">](https://pinterest.com/khadem_mh)
-> [<img src="./Other/Images/telegram.png" width="30">](https://t.me/mhkhadem)
-> [<img src="./Other/Images/whatsapp.png" width="30">](https://wa.me/989031335939)
-> [<img src="./Other/Images/wakatimesvg.png" width="130">](https://wakatime.com/@khadem_mh)
+> [<img src="./ImageSocialMedia/github.png" width="30">](https://github.com/khadem-mh)
+> [<img src="./ImageSocialMedia/pintrest.png" width="30">](https://pinterest.com/khadem_mh)
+> [<img src="./ImageSocialMedia/telegram.png" width="30">](https://t.me/mhkhadem)
+> [<img src="./ImageSocialMedia/whatsapp.png" width="30">](https://wa.me/989031335939)
+> [<img src="./ImageSocialMedia/wakatimesvg.png" width="130">](https://wakatime.com/@khadem_mh)
