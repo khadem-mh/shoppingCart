@@ -1,0 +1,9 @@
+.basket {
+    transition: all 400ms;
+    cursor: pointer;
+    user-select: none;
+}
+
+.basket:hover {
+    background-color: rgba(218, 112, 214, 0.459);
+} 
