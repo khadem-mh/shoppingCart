@@ -2,7 +2,13 @@
 <p align="center"> React Js expert and FrontEnd Developer from Iran.</p>
 
 ## Description Project
-- A beautiful shopping cart
+- A beautiful shopping cart that uses useContext to connect all data together with React JS and Express.
+  
+- A great and good project to understand the concept of useContext
+  
+- Fully responsive in every dimension
+  
+- With the ability to add، remove، or remove، add up a number of purchases of one product and all products and order the product.
 
 >### Languages
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=5BCAF7&random=false&width=100&height=25&lines=React+Js)
