@@ -28,7 +28,7 @@
 
 ## View of the project
 
-today write
+<img src="./View/shpping-cart.gif" alt="view" width="800px">
 
 ## Getting Started
 
