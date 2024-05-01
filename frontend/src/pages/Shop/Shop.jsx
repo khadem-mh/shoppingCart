@@ -5,7 +5,7 @@ import { productsList } from '../../data/item'
 
 const Shop = () => {
     return (
-        <Row xs={1} md={2} lg={4} className='g-4'>
+        <Row xs={1} sm={2} md={3} lg={4} className='g-3'>
             {
                 productsList.length ?
                     productsList.map(item => (

@@ -10,13 +10,13 @@ const App = () => {
 
   return (
     <CartProvider>
-      <Container>
+      <div className='container-xl'>
         <Navbar />
         <Routes>
           <Route index element={<Shop />} />
           <Route path={'/success'} element={<Success />} />
         </Routes>
-      </Container>
+      </div>
     </CartProvider>
   )
 }

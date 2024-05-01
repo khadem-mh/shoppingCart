@@ -29,43 +29,26 @@ const Navbare = () => {
 
     return (
         <>
-            {['md'].map((expand) => (
-                <Navbar key={expand} expand={expand} className="mt-3 mb-5 shadow rounded-3">
-                    <Container fluid>
-                        <Navbar.Brand href="#" className='d-flex align-items-center'>
-                            <img src="/Images/logo-website/logo-site.png" alt="logo-website" width={70} />
-                            <p className='m-0 fw-bold'>Shopping Cart</p>
-                        </Navbar.Brand>
-                        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-                        <Navbar.Offcanvas
-                            id={`offcanvasNavbar-expand-${expand}`}
-                            aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                            placement="end"
-                        >
-                            <Offcanvas.Header closeButton>
-                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                    Offcanvas
-                                </Offcanvas.Title>
-                            </Offcanvas.Header>
-                            <Offcanvas.Body>
-                                <Nav className="justify-content-end flex-grow-1 pe-3">
-                                    <div className='basket shadow shaow-lg rounded-2 p-3' onClick={() => cart.items.length > 0 && setShow(true)}>
-                                        {
-                                            cart.items.length > 0 ?
-                                                <div>
-                                                    {`(${productsCount}) `}
-                                                    <TfiShoppingCartFull fontSize={'1.4rem'} />
-                                                </div>
-                                                :
-                                                <TfiShoppingCart fontSize={'1.4rem'} />
-                                        }
-                                    </div>
-                                </Nav>
-                            </Offcanvas.Body>
-                        </Navbar.Offcanvas>
-                    </Container>
-                </Navbar>
-            ))}
+            <Navbar className="mt-3 mb-5 shadow rounded-3">
+                <Container fluid>
+                    <Navbar.Brand href="#" className='d-flex align-items-center'>
+                        <img src="/Images/logo-website/logo-site.png" alt="logo-website" width={70} />
+                        <p className='m-0 fw-bold'>Shopping Cart</p>
+                    </Navbar.Brand>
+
+                    <div className='basket shadow shaow-lg rounded-2 p-3 justify-content-start' onClick={() => cart.items.length > 0 && setShow(true)}>
+                        {
+                            cart.items.length > 0 ?
+                                <div>
+                                    {`(${productsCount}) `}
+                                    <TfiShoppingCartFull fontSize={'1.4rem'} />
+                                </div>
+                                :
+                                <TfiShoppingCart fontSize={'1.4rem'} />
+                        }
+                    </div>
+                </Container>
+            </Navbar>
 
             {
                 ReactDOM.createPortal(
